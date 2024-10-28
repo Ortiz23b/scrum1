@@ -1,0 +1,25 @@
+/* src/components/Cart.css */
+.cart {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 10px;
+}

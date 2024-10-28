@@ -1,0 +1,43 @@
+/* src/components/ProductSelection.css */
+.product-selection {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+
+.product-selection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.product-selection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-selection li {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-selection li:last-child {
+  border-bottom: none;
+}
+
+.product-selection button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-selection button:hover {
+  background-color: #0069d9;
+}
